@@ -1,0 +1,96 @@
+/* Réinitialisation des styles par défaut */
+body, h1, div, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Titre */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Sélecteur de fichiers */
+#file-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #e9f5ff;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#file-input:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Conteneur des résultats */
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Styles pour chaque résultat */
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+/* Styles pour les éléments en surbrillance */
+.line {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.value {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Styles pour la somme totale */
+.total-sum {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+
+.total-sum .value {
+    font-size: 20px;
+    color: #dc3545;
+}
