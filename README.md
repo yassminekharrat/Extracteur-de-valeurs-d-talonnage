@@ -20,4 +20,4 @@ Ce projet est un outil simple pour extraire et calculer des valeurs d'étalonnag
 
 1. **Téléchargez ou clonez le projet** :
    ```bash
-   git clone https://github.com/votre-utilisateur/extracteur-valeurs-etalonnage.git
+   git clone https://github.com/yassminekharrat/Extracteur-de-valeurs-d-talonnage.git
